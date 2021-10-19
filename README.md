@@ -1,10 +1,10 @@
-# Getting Started with Create React App
+# Dental Care - Let us brighten your smile!
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Live Link [Dental Care](https://dental-care-229ad.web.app/).
 
-## Available Scripts
+## Site Descripbiotn
 
-In the project directory, you can run:
+This is a dental care website. We’re a friendly team of dentists working together to ensure that you receive the best treatment that you require.
 
 ### `npm start`
 

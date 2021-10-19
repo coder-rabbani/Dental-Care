@@ -1,0 +1,17 @@
+.footer{
+    background-color: #E1E8F0;
+}
+.footer-logo{
+    color:#007634 !important;
+    font-size: 30px;
+    font-weight: 400;
+    font-family: 'Ubuntu';
+    text-align: left;
+}
+.social-icon{
+    background-color: #007634;
+    margin:0 5px;
+    color:white;
+    padding:5px;
+    font-size: 25px;
+}
