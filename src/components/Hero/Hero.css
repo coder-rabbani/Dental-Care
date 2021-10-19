@@ -25,3 +25,20 @@ h1.hero-title{
     font-family: 'Ubuntu';
     color:#007634
 }
+
+@media(max-width:668px){
+    h1.hero-title{
+        margin-top:50px;
+        font-size: 40px !important;
+        line-height: 40px;
+    }
+    .left-content p{
+        font-size: 25px;
+        margin-top:20px;
+    
+    }
+    .banner{
+        display: flex;
+        justify-content:center ;
+    }
+}

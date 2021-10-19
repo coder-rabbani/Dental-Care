@@ -1,0 +1,9 @@
+.contact{
+    max-width: 800px;
+}
+
+@media(max-width:668px){
+    .contact-title {
+        font-size: 25px;
+    }
+}

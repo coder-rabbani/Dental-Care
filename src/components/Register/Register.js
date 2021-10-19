@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 const Register = () => {
     return (
-        <div className="w-25 mx-auto py-5">
+        <div className="login mx-auto py-5 px-3">
             <Form>
                 <Form.Group className="mb-3">
                     <Form.Control type="text" placeholder="Your Name" />

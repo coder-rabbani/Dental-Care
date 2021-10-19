@@ -3,6 +3,7 @@ import { Button, Form } from 'react-bootstrap';
 import { useHistory, useLocation } from 'react-router';
 import { Link } from 'react-router-dom';
 import useAuth from '../../hooks/useAuth';
+import './Login.css'
 
 const Login = () => {
     const {signInUsingGoogle} = useAuth();
@@ -18,7 +19,7 @@ const Login = () => {
     }
 
     return (
-        <div className="w-25 mx-auto py-5">
+        <div className="login mx-auto py-5 px-3">
             <Form>
                 <Form.Group className="mb-3" controlId="formBasicEmail">
                     <Form.Control type="email" placeholder="Enter email" />
