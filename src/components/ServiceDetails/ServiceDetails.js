@@ -19,7 +19,7 @@ const ServiceDetails = () => {
         const result = services.find(sr=>sr.id===serviceId);
         setService(result);
     }, [services]);
-
+    document.title =` Dental Care -  ${service?.title}`;
     return (
         <div className="mx-auto service-details my-5">
             <img src={service?.img} alt=""/>
