@@ -7,6 +7,7 @@ firebaseInitialization();
 const useFirebase = () =>{
 
     const [user, setUser] = useState({});
+    const [isLoading, setIsLoading] = useState(true);
 
     const auth = getAuth();
     const googleProvider = new GoogleAuthProvider();
@@ -19,10 +20,12 @@ const useFirebase = () =>{
 
     // signOut Google
     const logOut = ()=>{
+        setIsLoading(true)
         signOut(auth)
         .then(()=>{
             setUser({})
         })
+        setIsLoading(false)
     }
 
     // Observe whether user auth state changed or not
@@ -31,10 +34,11 @@ const useFirebase = () =>{
             if(user){
                 setUser(user);
             }
+            setIsLoading(false)
         })
     }, [])
 
-    return {user, signInUsingGoogle, logOut }
+    return {user, signInUsingGoogle, logOut, isLoading }
 }
 
 export default useFirebase;
