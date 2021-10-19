@@ -1,10 +1,21 @@
 import React from 'react';
 import { Button, Form } from 'react-bootstrap';
-import { useForm } from 'react-hook-form';
+import { useHistory, useLocation } from 'react-router';
 import useAuth from '../../hooks/useAuth';
 
 const Login = () => {
     const {signInUsingGoogle} = useAuth();
+    const history = useHistory();
+    const location = useLocation();
+    const redirect_uri = location.state?.from || '/';
+
+    const handleRedirect = () =>{
+        signInUsingGoogle()
+        .then(result =>{
+            history.push(redirect_uri)
+        })
+    }
+
     return (
         <div className="w-25 mx-auto py-5">
             <Form>
@@ -19,7 +30,7 @@ const Login = () => {
                     Sign In
                 </Button>
             </Form>
-            <Button className="mt-2" onClick={signInUsingGoogle} variant="danger">Sign In with Google</Button>
+            <Button className="mt-2" onClick={handleRedirect} variant="danger">Sign In with Google</Button>
         </div>
     );
 };
