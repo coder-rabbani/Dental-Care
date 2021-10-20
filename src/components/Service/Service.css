@@ -1,3 +1,10 @@
 .site-btn{
     background-color: #007634 !important;
 }
+.service-card .card-title{
+    transition: all .3s;
+}
+.service-card:hover .card-title{
+    color:#007634;
+    font-size: 26px;
+}
