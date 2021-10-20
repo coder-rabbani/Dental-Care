@@ -28,9 +28,9 @@ h1.hero-title{
 
 @media(max-width:668px){
     h1.hero-title{
-        margin-top:50px;
+        margin-top:150px;
         font-size: 40px !important;
-        line-height: 40px;
+        line-height: 50px;
     }
     .left-content p{
         font-size: 25px;

@@ -4,11 +4,12 @@ import { Link, NavLink } from 'react-router-dom';
 import useAuth from '../../hooks/useAuth';
 import './Header.css';
 
+//Header component
 const Header = () => {
     const {user, logOut} =useAuth();
     return (
         <>
-        <Navbar bg="light" variant="light" collapseOnSelect expand="lg">
+        <Navbar fixed="top" bg="light" variant="light" collapseOnSelect expand="lg">
             <Container>
                 <Navbar.Brand className="logo" as={Link} to="/">Dental Care</Navbar.Brand> 
                 <Navbar.Toggle />
@@ -19,14 +20,15 @@ const Header = () => {
                     <Nav.Link as={NavLink} to="/dentists">Dentists</Nav.Link>
                     <Nav.Link as={NavLink} to="/contact">Contact</Nav.Link>
                 </Nav>
+
+                {/* authentication buttons */}
                 <Navbar.Text>
                     {
                     user?.email? <><span>{user.displayName} </span>
-                    <Button onClick={logOut} variant="danger">Log out</Button></>
+                    <Button onClick={logOut} variant="success">Log out</Button></>
                     :
-                    <Link to="/login"><Button variant="danger">Sign in</Button></Link>
-                    }
-                   
+                    <Link to="/login"><Button variant="success">Sign in</Button></Link>
+                    } 
                 </Navbar.Text>
                 </Navbar.Collapse>
             </Container>

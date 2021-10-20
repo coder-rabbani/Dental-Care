@@ -29,12 +29,14 @@ function App() {
             <Route path="/about">
               <About></About>
             </Route>
+            {/* private route start */}
             <PrivateRoute path="/services/service/:serviceId">
               <ServiceDetails></ServiceDetails>
             </PrivateRoute>
             <PrivateRoute path="/dentists">
               <Dentists></Dentists>
             </PrivateRoute>
+            {/* private route end */}
             <Route path="/contact">
               <Contact></Contact>
             </Route>
@@ -44,6 +46,7 @@ function App() {
             <Route path="/register">
               <Register></Register>
             </Route>
+            {/* 404 not found route  */}
             <Route path="*">
               <NotFund></NotFund>
             </Route>

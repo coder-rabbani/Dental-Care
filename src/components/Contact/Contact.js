@@ -2,6 +2,7 @@ import React from 'react';
 import { Button, Form } from 'react-bootstrap';
 import './Contact.css'
 
+//contact page component
 const Contact = () => {
     return (
         <div className="contact mx-auto py-5 px-3">

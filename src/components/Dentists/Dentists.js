@@ -9,6 +9,7 @@ import doctor4 from '../../images/doctor4.jpg'
 
 import Hero from '../Hero/Hero';
 
+//dentits page component
 const Dentists = () => {
     return (
         <Container>

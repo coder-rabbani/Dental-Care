@@ -5,6 +5,7 @@ import aboutBanner from '../../images/about-img.jpg'
 import { Image } from 'react-bootstrap';
 import './About.css';
 
+//about component
 const About = () => {
     return (
         <div className="pb-5">

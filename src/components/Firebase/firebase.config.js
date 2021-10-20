@@ -1,3 +1,5 @@
+
+//firebase configuration and secret keys
 const firebaseConfig = {
     apiKey: "AIzaSyB1ebI_nhCDLqe_4m9x-7z2iAMJgrlPUSo",
     authDomain: "dental-care-229ad.firebaseapp.com",

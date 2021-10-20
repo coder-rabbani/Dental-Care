@@ -1,6 +1,7 @@
 import React from 'react';
 import { Card } from 'react-bootstrap';
 
+//single dentist cart component
 const Dentist = ({title, img, position}) => {
     return (
         <div className="col-md-4 p-3">
