@@ -2,42 +2,42 @@
     {
         "id": "1",
         "title": "Radiographs",
-        "desc":"Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit.",
+        "desc":"Dental radiographs are commonly called X-rays. Dentists use radiographs for many reasons: to find hidden dental structures, malignant or benign masses, bone loss, and cavities. A radiographic image is formed by a controlled burst of X-ray radiation which penetrates oral structures at different levels, depending on varying anatomical densities, before striking the film or sensor. Teeth appear lighter because less radiation penetrates them to reach the film. Dental caries, infections and other changes in the bone density, and the periodontal ligament, appear darker because X-rays readily penetrate these less dense structures. Dental restorations (fillings, crowns) may appear lighter or darker, depending on the density of the material.",
         "img": "https://i.ibb.co/h2hsq1L/img-1.jpg",
         "price": 200
     },
     {
         "id": "2",
         "title": "Cavity Protection",
-        "desc":"Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit.",
+        "desc":"Dental cavities can be prevented with a combination of good oral hygiene and regular visits to the dentist. When too much oral bacteria takes up residence in your mouth, the acids they secrete can eat through the enamel, leading to holes known as cavities or dental caries. The sooner you have a cavity filled, the better, since untreated cavities can grow larger and eventually cause serious toothaches and infection. What’s even better than treating cavities is preventing them, which requires a combination of good at-home dental care, regular professional cleanings, and sometimes supplemental treatments like sealants and fluoride treatments.",
         "img": "https://i.ibb.co/yVdLQZH/img-2.jpg",
         "price": 250
     },
     {
         "id": "3",
         "title": "Teeth Cleaning",
-        "desc":"Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit.",
+        "desc":"Teeth cleaning is part of oral hygiene and involves the removal of dental plaque from teeth with the intention of preventing cavities (dental caries), gingivitis, and periodontal disease. People routinely clean their own teeth by brushing and interdental cleaning, and dental hygienists can remove hardened deposits (tartar) not removed by routine cleaning. Those with dentures and natural teeth may supplement their cleaning with a denture cleaner.",
         "img": "https://i.ibb.co/m4YxzqL/img-3.jpg",
         "price": 150
     },
     {
         "id": "4",
         "title": "Paradontosis",
-        "desc":"Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit.",
+        "desc":"Periodontitis is a serious infection of the gums. It’s caused by bacteria that have been allowed to accumulate on your teeth and gums. As periodontitis progresses, your bones and teeth can be damaged. However, if periodontitis is treated early and proper oral hygiene is maintained, the damage can be stopped. You might also notice some discoloration on your teeth. This is called plaque. Plaque is a buildup of bacteria and food debris on your teeth. Although bacteria are always present in your mouth, they only become harmful when conditions allow them to increase dramatically. This might happen if you don’t brush or floss, or get dental cleanings on a regular basis.",
         "img": "https://i.ibb.co/m4YxzqL/img-3.jpg",
         "price": 350
     },
     {
         "id": "5",
         "title": "Cosmetic Dentistry",
-        "desc":"Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit.",
+        "desc":"Cosmetic dentistry is generally used to refer to any dental work that improves the appearance (though not necessarily the functionality) of teeth, gums and/or bite. It primarily focuses on improvement in dental aesthetics in color, position, shape, size, alignment and overall smile appearance. Many dentists refer to themselves as regardless of their specific education, specialty, training, and experience in this field. This has been considered unethical with a predominant objective of marketing to patients. The American Dental Association does not recognize cosmetic dentistry as a formal specialty area of dentistry. However, there are still dentists that promote themselves as cosmetic dentists.",
         "img": "https://i.ibb.co/7rdrqTJ/img-5.jpg",
         "price": 450
     },
     {
         "id": "6",
         "title": "Orthodontics",
-        "desc":"Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit.",
+        "desc":"Orthodontics is a dentistry specialty that addresses the diagnosis, prevention, and correction of mal-positioned teeth and jaws, and misaligned bite patterns. It may also address the modification of facial growth, known as dentofacial orthopedics. Abnormal alignment of the teeth and jaws is very common. Nearly 50% of the developed world's population, according to the American Association of Orthodontics, has malocclusions severe enough to benefit from orthodontic treatment although this figure decreases to less than 10% according to the same AAO statement when referring to medically necessary orthodontics.",
         "img": "https://i.ibb.co/GWn3fk9/img-6.jpg",
         "price": 320
     }
