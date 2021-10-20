@@ -1,3 +1,11 @@
 .login{
     max-width: 400px;
+    margin-top: 150px !important;
+}
+.confirm-text{
+    font-size: 16px;
+}
+.confirm-text a{
+    color:#157347;
+    font-weight: bold;
 }

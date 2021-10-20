@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, Form } from 'react-bootstrap';
+import { Form } from 'react-bootstrap';
 import { useHistory, useLocation } from 'react-router';
 import { Link } from 'react-router-dom';
 import useAuth from '../../hooks/useAuth';
@@ -21,21 +21,25 @@ const Login = () => {
     }
 
     return (
-        <div className="login mx-auto py-5 px-3">
-            <Form>
-                <Form.Group className="mb-3" controlId="formBasicEmail">
-                    <Form.Control type="email" placeholder="Enter email" />
-                </Form.Group>
+        <div className="my-5 container">
+            <div className="login mx-auto py-3 px-3 shadow-lg rounded">
+                <h3 className="py-3 text-center">Please Sign In</h3>
+                <Form>
+                    <Form.Group className="mb-3" controlId="formBasicEmail">
+                        <Form.Control type="email" placeholder="Enter email" />
+                    </Form.Group>
 
-                <Form.Group className="mb-3" controlId="formBasicPassword">
-                    <Form.Control type="password" placeholder="Password" />
-                </Form.Group>
-                <Button variant="primary" type="submit">
-                    Sign In
-                </Button>
-            </Form>
-            <Button className="mt-2" onClick={handleRedirect} variant="danger">Sign In with Google</Button>
-            <p className="pt-3">Create a new account <Link to="/register"> Register Here</Link></p>
+                    <Form.Group className="mb-3" controlId="formBasicPassword">
+                        <Form.Control type="password" placeholder="Password" />
+                    </Form.Group>
+                    <button className="btn btn-success w-100">
+                        Sign In
+                    </button>
+                </Form>
+                <p className="pt-3 text-center mb-2">OR</p>
+                <button className="mt-2 btn btn-danger w-100" onClick={handleRedirect}>Sign In with Google</button>
+                <p className="pt-3 confirm-text">Create a new account <Link to="/register"> Register Here</Link></p>
+            </div>
         </div>
     );
 };

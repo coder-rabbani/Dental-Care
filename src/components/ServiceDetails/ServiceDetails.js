@@ -26,8 +26,8 @@ const ServiceDetails = () => {
     document.title =` Dental Care -  ${service?.title}`;
     
     return (
-        <div className="mx-auto service-details my-5">
-            <img src={service?.img} alt=""/>
+        <div className="container mx-auto service-details my-5 pt-5">
+            <img className="img-fluid" src={service?.img} alt=""/>
             <div className="mt-4">
                 <h2>{service?.title}</h2>
                 <p>{service?.desc}</p>
