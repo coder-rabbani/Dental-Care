@@ -9,10 +9,10 @@
     text-align: left;
 }
 .left-content p{
-    font-size: 50px;
+    font-size: 40px;
     font-family: 'Ubuntu';
     margin-top:30px;
-
+    line-height: 50px;
 }
 .banner{
     display: flex;
@@ -21,16 +21,16 @@
 h1.hero-title{
     font-size: 80px !important;
     font-weight: 900;
-    line-height: 80px;
+    line-height: 90px;
     font-family: 'Ubuntu';
     color:#007634
 }
 
 @media(max-width:668px){
     h1.hero-title{
-        margin-top:30px;
+        margin-top:50px;
         font-size: 40px !important;
-        line-height: 50px;
+        line-height: 40px;
     }
     .left-content p{
         font-size: 25px;

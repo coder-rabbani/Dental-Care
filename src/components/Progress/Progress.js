@@ -15,13 +15,13 @@ const Progress = () => {
                             <h2 className="progress-title progress-heading fw-bolder">Excellence Defined</h2>
                             <p>Teeth whitening is one of the quickest ways to improve your smile. Many patients are amazed that one trip to DentiCare can change their teeth dramatically.</p>
                         </div>
-                        <div>
-                        <p>Dental Satisfaction</p>    
-                        <ProgressBar variant="success" animated now={90}  label={`${90}%`}/>
-                        <p className="pt-3">Success Rate</p>
-                        <ProgressBar variant="success" animated now={95}  label={`${95}%`} />
-                        <p className="pt-3">Travel Satisfaction</p>
-                        <ProgressBar variant="success" animated now={85}  label={`${85}%`} />
+                        <div className="pb-5">
+                            <p>Dental Satisfaction</p>    
+                            <ProgressBar variant="success" animated now={90}  label={`${90}%`}/>
+                            <p className="pt-3">Success Rate</p>
+                            <ProgressBar variant="success" animated now={95}  label={`${95}%`} />
+                            <p className="pt-3">Travel Satisfaction</p>
+                            <ProgressBar variant="success" animated now={85}  label={`${85}%`} />
                         </div>
                     </Col>
                     <Col md={6}>
