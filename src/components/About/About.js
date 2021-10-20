@@ -16,6 +16,7 @@ const About = () => {
                     </div>
                     <div className="col-md-7 mt-3">
                         <h2>Welcome to a Family Dental Clinic</h2>
+                        <p>Dentil Care is a well-established dentist in the heart of Bangladesh providing excellent dentistry for the whole family. Our priority is making you feel comfortable and at ease in a safe and welcoming environment.</p>
                         <p>Professional dental clinic Dental Care offers the whole range of dentistry services: treatment of caries, gum diseases, tooth whitening, implantation, dentures (crowns installation), surgery, occlusion correction (braces) etc. Our dentists will help you solve any dental problem painless and carefully</p>
                     </div>
                 </div>
