@@ -4,7 +4,7 @@ import './Hero.css';
 //hero component that recive props where invoked
 const Hero = ({img, title, subTitle}) => {
     return (
-        <div className="hero-carousel">
+        <div className="hero-carousel pt-5 mt-5">
             <div className="container">
                 <div className="row hero-content">
                     <div className="col-md-6 left-content">
