@@ -16,11 +16,11 @@ const Progress = () => {
                         </div>
                         <div>
                         <p>Dental Satisfaction</p>    
-                        <ProgressBar variant="success" animated now={90} />
+                        <ProgressBar variant="success" animated now={90}  label={`${90}%`}/>
                         <p className="pt-3">Success Rate</p>
-                        <ProgressBar variant="success" animated now={95} />
+                        <ProgressBar variant="success" animated now={95}  label={`${95}%`} />
                         <p className="pt-3">Travel Satisfaction</p>
-                        <ProgressBar variant="success" animated now={85} />
+                        <ProgressBar variant="success" animated now={85}  label={`${85}%`} />
                         </div>
                     </Col>
                     <Col md={6}>

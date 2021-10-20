@@ -1,10 +1,14 @@
 .logo{
     color:#007634 !important;
-    font-size: 50px;
-    font-weight: 600;
+    font-size: 40px !important;
+    font-weight: 700;
     font-family: 'Ubuntu';
     text-align: left;
 }
 .nav-link.active{
-    border-bottom:1px solid
+    color:#007634 !important;
+}
+.nav-link{
+    color:#212529 !important;
+    padding: 0 20px !important;
 }

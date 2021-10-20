@@ -8,6 +8,11 @@
 .progress-heading{
     font-family: 'Ubuntu' !important;
     font-size: 50px;
+    color: #007634;
+}
+.progress{
+    height: 0.85rem !important;
+    margin-top: -10px;
 }
 @media(max-width:668px){
     .progress-heading{
