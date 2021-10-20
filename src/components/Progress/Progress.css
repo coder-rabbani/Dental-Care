@@ -1,0 +1,16 @@
+.progress-area.row{
+    margin-top: -10px;
+    align-items: center;
+}
+.progress-title{
+    font-family: 'Ubuntu' !important;
+}
+.progress-heading{
+    font-family: 'Ubuntu' !important;
+    font-size: 50px;
+}
+@media(max-width:668px){
+    .progress-heading{
+        font-size: 30px;
+    }
+}

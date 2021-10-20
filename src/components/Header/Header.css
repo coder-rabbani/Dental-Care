@@ -5,3 +5,6 @@
     font-family: 'Ubuntu';
     text-align: left;
 }
+.nav-link.active{
+    border-bottom:1px solid
+}
