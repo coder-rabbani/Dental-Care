@@ -1,6 +1,7 @@
 import React from 'react';
 import './Hero.css';
 
+//hero component that recive props where invoked
 const Hero = ({img, title, subTitle}) => {
     return (
         <div className="hero-carousel">

@@ -4,6 +4,7 @@ import firebaseInitialization from "../components/Firebase/firebase.init";
 
 firebaseInitialization();
 
+// firebase authentication details here 
 const useFirebase = () =>{
 
     const [user, setUser] = useState({});

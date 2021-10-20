@@ -5,6 +5,7 @@ import Services from '../Services/Services';
 import Galleries from '../Galleries/Galleries';
 import Progress from '../Progress/Progress';
 
+//main home component
 const Home = () => {
     return (
         <div>

@@ -1,6 +1,7 @@
 import React from 'react';
 import notFound from '../../images/705.jpg'
 
+//not found component
 const notFund = () => {
     return (
         <div className="text-center mb-5">

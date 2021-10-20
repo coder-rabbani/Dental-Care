@@ -2,6 +2,7 @@ import React from 'react';
 import { Button, Form } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 
+// user register component
 const Register = () => {
     return (
         <div className="login mx-auto py-5 px-3">

@@ -3,6 +3,7 @@ import { Col, Container, Row, ProgressBar } from 'react-bootstrap';
 import doctor from '../../images/doctor.png'
 import './Progress.css'
 
+//Home progress bar component
 const Progress = () => {
     return (
         <div>

@@ -5,12 +5,14 @@ import { Link } from 'react-router-dom';
 import useAuth from '../../hooks/useAuth';
 import './Login.css'
 
+//Login component
 const Login = () => {
     const {signInUsingGoogle} = useAuth();
     const history = useHistory();
     const location = useLocation();
     const redirect_uri = location.state?.from || '/';
 
+    // redirect to the target page after login where user wanted to go
     const handleRedirect = () =>{
         signInUsingGoogle()
         .then(result =>{

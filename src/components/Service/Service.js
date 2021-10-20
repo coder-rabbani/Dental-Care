@@ -3,14 +3,21 @@ import { Button, Card } from 'react-bootstrap';
 import { useHistory } from 'react-router';
 import './Service.css'
 
+//service card component for home page
 const Service = (props) => {
+
+    // destructuring object from props 
     const {id, title, img, desc} = props.service;
+
+    // use history hook
     const history = useHistory();
     const url = `/services/service/${id}`;
 
+    // button click handler
     const handleUrl = ()=>{
         history.push(url)
     }
+
     return (
         <div className="col-md-4 p-3">
             <Card>

@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Gallery from '../Gallery/Gallery';
 
+//our gallery component
 const Galleries = () => {
     const [galleries, setGalleries] = useState([]);
     useEffect(()=>{

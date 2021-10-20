@@ -1,6 +1,7 @@
 import React from 'react';
 import { Card } from 'react-bootstrap';
 
+//single gallery image component
 const Gallery = (props) => {
     const {img} = props.gallery;
     return (
